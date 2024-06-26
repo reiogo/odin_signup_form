@@ -9,7 +9,7 @@ body {
 }
 
 body div.image {
-  background-image: url('photos/coastphoto.jpg');
+  background-image: url('images/coastphoto.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
