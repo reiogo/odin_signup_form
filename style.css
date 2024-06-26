@@ -69,6 +69,9 @@ form {
   padding: 8px 35px 20px;
   box-shadow: 1px 4px 10px #e0e2e0;
 }
+form .formSpan {
+  font-weight: bold;
+}
 
 button {
   width: 10rem;
