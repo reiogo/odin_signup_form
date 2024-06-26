@@ -1,0 +1,90 @@
+body {
+  display:flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem;
+
+}
+
+body div.image {
+  background-image: url('coastphoto.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100%;
+  margin: 0;
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+a {
+  color: gray;
+}
+
+#logo {
+  background: rgba(0, 0, 0, 0.13);
+  font-weight: bold;
+  font-size: 32px;
+  position: absolute;
+  top: 30vh;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#credits {
+  background-color: white;
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 85px;
+}
+
+div.content p {
+  padding: 0 35px;
+}
+
+form {
+  padding: 30px 0;
+  box-shadow: 1px 4px 10px #e0e2e0;
+  padding: 35px;
+}
+
+button {
+  width: 10rem;
+  margin: 30px;
+}
+
+label {
+  appearance: none;
+  font-size: 10px;
+}
+
+section {
+  display: flex;
+  align-items: flex-start;
+}
+
+section > div{
+  display: flex;
+  flex-direction: column;
+input {
+  font-size: 12px;
+}
+input[type="password"]:invalid {
+  border: solid 1px red;
+}

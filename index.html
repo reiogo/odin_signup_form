@@ -9,6 +9,55 @@
     <script src="javascript.js" defer></script>
   </head>
   <body>
-    body
+    <div class="image">
+      <div id="logo">
+        <img src="odinlogo.png" alt="odin logo"height="60px">
+        <span id="logospan">ODIN</span>
+      </div>
+      <span id="credits">Photo by Alec D on <a href="http://www.pexels.com" >Pexels.com</a></span>
+    </div>
+    <div class="content">
+      <div>
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest, deepest dreams.
+        Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p> 
+      </div>
+     <form action="" method="post" accept-charset="utf-8">
+       Let's do this!
+       <section>
+         <div>
+           <label for="first_name">FIRST NAME</label>
+           <input type="text" name="first_name" value="Thor" id="first_name">
+         </div>
+         <div>
+           <label for="last_name">LAST NAME</label>
+           <input type="text" name="last_name" value="Odinsson" id="last_name">
+         </div>
+       </section>
+       <section>
+         <div>
+           <label for="email">EMAIL</label>
+           <input type="email" name="email" value="thor@gmail.com" id="email">
+         </div>
+         <div>
+           <label for="phone">PHONE NUMBER</label>
+           <input type="tel" name="phone" value="" id="phone">
+         </div>
+       </section>
+       <section>
+         <div>
+           <label for="pwd">PASSWORD <span aria-label="required">*</span></label>
+           <input type="password" name="password" value="" id="pwd" required>
+         </div>
+         <div>
+           <label for="pwdConfirm">CONFIRM PASSWORD<span aria-label="required">*</span></label>
+           <input type="password" name="password_confirm" value="" id="pwdConfirm" required>
+         </div>
+       </section>
+       
+     </form> 
+     <button type="submit">Create Account</button>
+     <p>Already have an account? <a href="#" >Log in</a></p>
+    </div>
   </body>
 </html>
