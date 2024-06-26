@@ -9,7 +9,7 @@ body {
 }
 
 body div.image {
-  background-image: url('coastphoto.jpg');
+  background-image: url('photos/coastphoto.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -92,7 +92,6 @@ section {
   gap: 35px;
 }
 
-section > div{
   display: flex;
   flex-direction: column;
 
