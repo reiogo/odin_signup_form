@@ -1,4 +1,4 @@
 # signup_form
-The Odin Project - Signup form
+Template Signup form
 
-Source: https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form
+Live Demo: https://reiogo.github.io/odin_signup_form/
